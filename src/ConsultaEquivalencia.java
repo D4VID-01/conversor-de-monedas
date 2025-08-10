@@ -27,7 +27,6 @@ public class ConsultaEquivalencia {
             throw new RuntimeException(e);
         }
 
-
     }
 
     public void mostrarMenu() {
@@ -37,8 +36,8 @@ public class ConsultaEquivalencia {
         System.out.println("2) Peso Méxicano =>> Dólar");
         System.out.println("3) Dólar =>> Euro");
         System.out.println("4) Euro =>> Dólar");
-        System.out.println("5) Peso Colombiano =>> Dólar");
-        System.out.println("6) Dólar =>> Peso Colombiano");
+        System.out.println("5) Dólar =>> Peso Colombiano");
+        System.out.println("6) Peso Colombiano =>> Dólar");
         System.out.println("7) Salir\n");
         System.out.println("Elija una opción válida:");
         System.out.println("***********************************************");

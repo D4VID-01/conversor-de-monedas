@@ -10,6 +10,7 @@ public class Principal {
         String monenadaBase;
         String monenadaDestino;
         Divisa conversion;
+        String cantidadConversion;
 
         while (true){
 
@@ -43,8 +44,13 @@ public class Principal {
                 continue;
             }
 
+            System.out.println("Ingrese el valor en " + monenadaBase +  " que desea convertir a " + monenadaDestino);
+            cantidadConversion = lectura.nextLine();
             conversion = consulta.buscaConversion(monenadaBase, monenadaDestino);
+            double conversionFinal = Integer.parseInt(cantidadConversion) * conversion.conversion_rate();
             System.out.println(conversion);
+            System.out.println(">>>>>>>>>> El valor de " + cantidadConversion + " " + monenadaBase + " corresponde al valor de " +
+                    conversionFinal + " " + monenadaDestino + " <<<<<<<<<<\n");
         }
 
 

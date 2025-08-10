@@ -7,5 +7,10 @@ public record Divisa(String base_code,
         return "\nConversión unitaria actual: 1 " + base_code
                 + " = " + conversion_rate + " " + target_code+ "\n";
     }
+
+    @Override
+    public double conversion_rate() {
+        return conversion_rate;
+    }
 }
 
