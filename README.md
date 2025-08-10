@@ -20,17 +20,17 @@ Este proyecto es una aplicación de consola desarrollada en Java que permite con
 
 1. Clona el repositorio:
 
-   ```bash
-   git clone https://github.com/D4VID-01/conversor-de-monedas.git
-   cd conversor-de-monedas
+      ```bash
+      git clone https://github.com/D4VID-01/conversor-de-monedas.git
+      cd conversor-de-monedas
 
 2. Abre el proyecto en tu IDE de Java preferido.
 
 3. Compila y ejecuta la aplicación:
    
-   ```bash
-   javac Principal.java
-   java Principal
+      ```bash
+      javac Principal.java
+      java Principal
 
 ## Uso
 
@@ -53,20 +53,20 @@ Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor s
 
 2. Crea una nueva rama para tu funcionalidad:
 
-```bash
-git checkout -b feature/nueva-funcionalidad
-```
+   ```bash
+   git checkout -b feature/nueva-funcionalidad
+   ```
 
 3. Realiza tus cambios y haz commit:
 
-```bash
-git commit -m 'Agregar nueva funcionalidad'
-```
+   ```bash
+   git commit -m 'Agregar nueva funcionalidad'
+   ```
 
 4. Sube tus cambios a tu fork:
 
-```bash
-git push origin feature/nueva-funcionalidad
-```
+   ```bash
+   git push origin feature/nueva-funcionalidad
+   ```
 
 5. Abre un Pull Request describiendo tus cambios.
